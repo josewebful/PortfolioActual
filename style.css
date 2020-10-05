@@ -1,0 +1,123 @@
+
+body {
+    background-image: url(https://img.pngio.com/download-clear-snow-png-images-background-toppng-clear-png-background-840_859.png);
+    margin: 0;
+  }
+  
+  /* Logo */
+  .box {
+    font-family: 'Times New Roman', Times, serif;
+    background-color : black;
+    color: white; 
+    text-align: center;
+    font-size: 10px;
+    padding: 1px;
+    margin: 1px;
+  }
+  
+  .round {
+    border-radius: 40px;
+  }
+  
+  
+  /* main/article */
+  
+  body header h2 {
+    color: black; 
+    font-size: 13px;
+  }
+
+  img {
+    width: 25%;
+    border: 0;
+  }
+  
+  .img-container{
+    text-align: center;
+  }
+  .name {
+    color: brown; 
+    font-size: 23px; 
+    text-align: center;
+    font-weight: 900;
+  }
+
+  p {
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:center
+  }
+
+  h2, h3 {
+    text-align: center;
+    color: brown;
+    text-decoration:underline;
+  }
+  
+  /* footer */
+  .rectangle {
+    font-family: 'Times New Roman', Times, serif;
+    background-color : black;
+    color: white; 
+    text-align: center;
+    font-size: 10px;
+    padding: 1px;
+    margin: 1px;
+    height: 45px;
+  }
+
+  ul, ol {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  li {
+      margin: 12px;
+      margin-left: 100px;
+  }
+  
+  
+  /* link interaction */
+  a:link  {color: blue;}
+  a:visited {color: rgb(59, 95, 255)};
+  a:hover {color:green;}
+  a:active {color: red;}
+
+
+  .wrapper{
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace
+  }
+
+  .group {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .item {
+      flex: 1;
+      margin: 10px;
+  }
+
+  @media all and (min-width: 800px){
+      .wrapper{
+          width:80%;
+          margin: auto;
+      }
+      .group{
+          flex-direction: row;
+      }
+  }
+
+ #about {
+     background-color:rgb(206, 202, 189, 0.952);
+     padding: 50px;
+     margin: 50px;
+ }
+
+ #contact {
+    background-color:rgb(206, 202, 189, 0.952);
+    padding: 30px;
+    margin: 50px;
+}
